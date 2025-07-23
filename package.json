@@ -2,6 +2,7 @@
   "name": "talento_tech",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://facugon85.github.io/entrega_talento_tech",
   "type": "module",
   "scripts": {
     "dev": "vite",
