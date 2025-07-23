@@ -64,7 +64,7 @@ const CategoryCard = styled.div`
     left: 0;
     width: 100%;
     height: 5px;
-    background-color: ${props => props.accentColor};
+    background-color: ${props => props.accentcolor};
   }
 `;
 
@@ -143,7 +143,7 @@ const FeaturedCategories = () => {
           {categories.map((category) => (
             <CategoryCard 
               key={category.id}
-              accentColor={category.color}
+              accentcolor={category.color}
               onClick={() => handleCategoryClick(category.id)}
             >
               <CategoryIcon color={category.color}>
